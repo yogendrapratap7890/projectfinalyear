@@ -1,0 +1,30 @@
+*{
+    padding: 0em;
+    margin: 0em;
+   
+}
+body{
+     background-image: url("C:\Users\welcome\OneDrive\Pictures\final30010\images\donatepc.jpeg");
+}
+div{
+    margin-top: 7.5em;
+    background-color: rgb(207, 200, 200);
+  padding: 2em;
+}
+h1{
+text-align: center;
+
+}
+p{
+    color: green;
+    text-align: center;
+}
+form{
+    display: flex;
+flex-direction: column;
+width: 70%;
+margin: auto;
+}
+form>button{
+margin-top: 1.5em;
+}

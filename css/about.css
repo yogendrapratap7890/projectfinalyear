@@ -1,0 +1,229 @@
+*{
+    background-color: #eee;
+   
+}
+.quote{
+    display: flex;
+    justify-content: center;
+   
+}
+.box{
+  display: flex;
+  width: 79vw;
+  justify-content: center;
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: 4rem;
+    padding-left: 3rem;
+
+}
+.box1{
+    box-shadow: 4px 4px 20px #192a56;
+    border-radius: 9px;
+}
+.box2{
+    background-color: #fff;
+    padding-top: 5rem;
+   
+    font-size: 2rem;
+color: #192a56 ;
+text-shadow: 8px 8px 20px #ff8c00;
+}
+#invertcomma{
+
+padding-top: 2rem;
+}
+#being{
+    margin-bottom: 0%;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    /* background-color: #fff; */
+   
+}
+#nameitem{
+    font-size: 2.5rem;
+    color: #ff8c00;
+    text-align: center;
+}
+#numberitem{
+color: #192a56;
+}
+.service {
+   background-color: #fff;
+    /* border: 2px solid rgb(233, 133, 18); */
+    border-radius: 6px;
+    box-shadow: 8px 8px 20px #192a56;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    font-size: 1.5rem;
+}
+.service > img {
+    /* width: 150px; */
+   
+    margin: 7px;
+}
+.service p {
+    color: #666;
+    margin: 14px;
+    text-align: center;
+}
+.itemss {
+    background-color: #eee;
+    display: flex;
+}
+#items{
+    background-color: #eee;
+}
+.divcol{
+    background-color: #fff;
+    margin: 2%;
+}
+.future{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items:  center;
+padding: 5rem ;
+padding-right: 0%;
+margin-left: 7.5rem;
+margin-right: 8rem;
+}
+.future > h1{
+    font-size: 3.7rem;
+    color: #ff8c00;
+
+}
+.future > p{
+    color: #666;
+    font-size: 1.7rem;
+    text-shadow: 8px 8px 20px #192a56;
+    text-decoration:dotted
+}
+#compname{
+    padding-top: 1.5rem;
+    display: inline-block;
+}
+.right{
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.5rem;
+    padding-right: 5rem;
+    /* border: 3px solid #ff8c00; */
+    box-shadow: 2px 2px 10px #192a56;
+border-radius: 15px;
+
+margin: 2rem;
+background-color: #fff;
+width: 70%;
+margin-left: 28.5%;
+}
+.left{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding:1.5rem;
+    padding-left: 5rem;
+    /* border: 3px solid #ff8c00; */
+    box-shadow: 2px 2px 10px #192a56;
+    border-radius: 15px;
+    margin: 2rem;
+    background-color: #fff;
+    width: 70%;
+}
+.left > h1 ,.right > h1, .right > h4, .right p, .left > h4, .left p ,.right h5, .left h5{
+    background-color: #fff;
+}
+.right > h4, .right p, .left > h4, .left p, .right h5, .left h5{
+    color: #666;
+}
+.right > h1,.left > h1{
+    color: #0c1b3f;
+}
+.right h4, .left h4, .right h5, .left h5{
+    font-size: 1.7rem;
+   
+    font-weight: 900;
+    
+}
+.right h4, .left h4{
+    font-size: 1.9rem;
+     color: #ff8c00;
+     /* text-shadow: 8px 8px 20px #192a56; */
+     font-weight: 900;
+}
+.team{
+    margin-top: 5rem;
+    padding:1rem;
+}
+.lightcolo{
+    color: #666;
+}
+@media screen and (max-width: 992px) {
+    *{
+    font-size: 2.9rem;
+    }
+    .box img{
+        width: 20%;
+        height: 15%;
+    }
+   
+    .box2 ,.future p{
+        font-size: 1.1em;
+    }
+    .itemss {
+        background-color: #eee;
+        
+         display: flex;
+         width: 97%;
+         flex-direction: column;
+         margin: 25px;
+         justify-content: center;
+         align-items: center;
+         margin-bottom: 0rem;
+         font-size: 1.5rem;
+        margin-left: 1.4rem;
+        
+     }
+     .service{
+        margin-top: 5rem;
+         width: auto;
+        
+        
+     }
+     .box{
+         padding-left: auto;
+     }
+    .future h1{
+         font-size: 1.5em;
+     }
+     .future p{
+        text-shadow: 1px 1px 40px #5e6c91;
+     }
+     #nameitem{
+        font-size: 2.5em;
+     }
+     .right h1, .left h1{
+         font-size: 2.3em;
+     }
+     .right h4, .left h4{
+        font-size: 1.9em; 
+       }
+       .right h5, .left h5{
+           font-size: 2.4rem;
+       }
+       .team h1{
+           font-size: 1.7em;
+       }
+     .right p, .left p{
+         color: #666;
+     }
+      }
+  

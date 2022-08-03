@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cpatain Cook's - Donation</title>
+
+	<!--cdn font awesome-->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   
+   <!--font awesome cdn-->
+	
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+	<!--CSS file link-->
+
+	<link rel="stylesheet" type="text/css" href="css/donation.css">
+
+</head>
+
+<body>
+
+	<!--header section start-->
+
+    <header>
+	   <img class="logo" src="images/logo (2).png" width="150" height="100">  <!-- edited -->
+       <img class="logo logo2" src="images/logo(3).png" width="350" height="65">   <!-- edited -->
+
+	 <nav class="navbar">
+		<a class="abc" href="index.html">Home</a>
+		<a href="drinks.html" target="blank">Drinks</a>
+		<a href="menu.html" target="blank">Menu</a>
+		<a href="about.html" target="blank">About</a>
+		<a href="contact.html" target="blank">Contact </a>
+		<a href="#">Donation</a>
+	 </nav>
+
+	  <div class="icon">
+		<i class="fas fa-bars" id="menu-bars"></i>
+	  </div>
+    </header> 
+
+ <!--header section ends-->
+
+
+ <!--donation section start-->
+
+  <section class="order">
+	<h3 class="sub-heading">Welcome To The Donation Page... </h3>
+	<h1 class="heading">Gift Someone a Life with Small Charity</h1>
+
+	<form action="">
+		
+		<div class="inputBox">
+			
+			<div class="input">
+				<span>Your Name:</span>
+				<input type="text" placeholder="enter your name..." required>
+			</div>
+
+			<div class="input">
+				<span>Your Age:</span>
+				<input type="number" placeholder="enter your age..." required>
+			</div>
+
+			<div class="input">
+				<span>Gender:</span>
+				<select name="gender" id="gender" required>
+							<option value=""><--Gender--></option>
+								<option value="male">Male</option>
+								<option value="female">Female</option>
+								<option value="other">Other</option>
+				</select>				
+			</div>
+
+			<div class="input">
+				<span>Your Email:</span>
+				<input type="email" placeholder="enter your email..." required>
+			</div>
+
+		</div>
+
+		<div class="inputBox">
+			
+			<div class="input">
+				<span>Phone:</span>
+				<input type="number" placeholder="enter your phone number..." required>
+			</div>
+
+			<div class="input">
+				<span>Donation:</span>
+				<select name="donation" id="donation" required>
+							<option value=""><--Donation--></option>
+								<option value="10">10</option>
+								<option value="20">20</option>
+								<option value="30">30</option>
+								<option value="40">40</option>
+								<option value="50">50</option>
+								<option value="60">60</option>
+								<option value="70">70</option>
+								<option value="80">80</option>
+								<option value="90">90</option>
+								<option value="100">100</option>
+								
+
+				</select>
+			</div>
+			
+
+		</div>
+		
+		<div class="inputBox">
+			
+			<!-- <div class="input">
+				<span>Your Address</span>
+				<textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+			</div> -->
+
+			<div class="input">
+				<span>Your Message (Optional)</span>
+				<textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+			</div>
+
+		</div>
+
+     <!-- <input type="submit" value="order now" class="btn"> -->
+
+	 <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JRGbhHKZD9cZit" async> </script>
+	
+
+	  </form>
+    </section>
+
+ </div>
+
+ <!--donation section end--> 
+
+
+
+  <script src="js/script.js"></script>
+
+ 
+
+</body>
+</html>
